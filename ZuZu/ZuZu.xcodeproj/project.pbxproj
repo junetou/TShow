@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4E5D1738B47FE1D1FEC4E7A /* libPods-ZuZu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F4D712F40B3212C74213E25 /* libPods-ZuZu.a */; };
+		EE43D1751E62EB9D005862C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE43D1741E62EB9D005862C8 /* main.m */; };
+		EE43D1781E62EB9D005862C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE43D1771E62EB9D005862C8 /* AppDelegate.m */; };
+		EE43D17B1E62EB9D005862C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE43D17A1E62EB9D005862C8 /* ViewController.m */; };
+		EE43D17E1E62EB9D005862C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE43D17C1E62EB9D005862C8 /* Main.storyboard */; };
+		EE43D1801E62EB9D005862C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE43D17F1E62EB9D005862C8 /* Assets.xcassets */; };
+		EE43D1831E62EB9D005862C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE43D1811E62EB9D005862C8 /* LaunchScreen.storyboard */; };
+		EE43D18E1E62EB9D005862C8 /* ZuZuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE43D18D1E62EB9D005862C8 /* ZuZuUITests.m */; };
+		EE7851EE1E65139B003BD704 /* CustomerMAPointAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7851ED1E65139B003BD704 /* CustomerMAPointAnnotationView.m */; };
+		EE7851F11E6513E7003BD704 /* CustomCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7851F01E6513E7003BD704 /* CustomCalloutView.m */; };
+		EE7851F41E6559A8003BD704 /* MapViewHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7851F31E6559A8003BD704 /* MapViewHeight.m */; };
+		EE7851F71E658F72003BD704 /* MapInfoViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7851F61E658F72003BD704 /* MapInfoViewViewController.m */; };
+		EEA181F11E6420E7003363B4 /* FriController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE43D1991E62F426005862C8 /* FriController.m */; };
+		EEA181F41E64308C003363B4 /* NeedController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA181F31E64308C003363B4 /* NeedController.m */; };
+		EEA181F71E643099003363B4 /* RentController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA181F61E643099003363B4 /* RentController.m */; };
+		EEA181FD1E643B66003363B4 /* CustomerMAPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA181FC1E643B66003363B4 /* CustomerMAPointAnnotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE43D18A1E62EB9D005862C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE43D1681E62EB9D005862C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE43D16F1E62EB9D005862C8;
+			remoteInfo = ZuZu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32CDDC6E3AC36E459B1313B3 /* Pods-ZuZu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZuZu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZuZu/Pods-ZuZu.debug.xcconfig"; sourceTree = "<group>"; };
+		489CB52CF5ED570909865C00 /* Pods-ZuZu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZuZu.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZuZu/Pods-ZuZu.release.xcconfig"; sourceTree = "<group>"; };
+		5F4D712F40B3212C74213E25 /* libPods-ZuZu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZuZu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE43D1701E62EB9D005862C8 /* ZuZu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZuZu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE43D1741E62EB9D005862C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE43D1761E62EB9D005862C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE43D1771E62EB9D005862C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE43D1791E62EB9D005862C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE43D17A1E62EB9D005862C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE43D17D1E62EB9D005862C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE43D17F1E62EB9D005862C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE43D1821E62EB9D005862C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE43D1841E62EB9D005862C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE43D1891E62EB9D005862C8 /* ZuZuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZuZuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE43D18D1E62EB9D005862C8 /* ZuZuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZuZuUITests.m; sourceTree = "<group>"; };
+		EE43D18F1E62EB9D005862C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE43D1981E62F426005862C8 /* FriController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriController.h; sourceTree = "<group>"; };
+		EE43D1991E62F426005862C8 /* FriController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriController.m; sourceTree = "<group>"; };
+		EE7851EC1E65139B003BD704 /* CustomerMAPointAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerMAPointAnnotationView.h; sourceTree = "<group>"; };
+		EE7851ED1E65139B003BD704 /* CustomerMAPointAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerMAPointAnnotationView.m; sourceTree = "<group>"; };
+		EE7851EF1E6513E7003BD704 /* CustomCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCalloutView.h; sourceTree = "<group>"; };
+		EE7851F01E6513E7003BD704 /* CustomCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCalloutView.m; sourceTree = "<group>"; };
+		EE7851F21E6559A8003BD704 /* MapViewHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewHeight.h; sourceTree = "<group>"; };
+		EE7851F31E6559A8003BD704 /* MapViewHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewHeight.m; sourceTree = "<group>"; };
+		EE7851F51E658F72003BD704 /* MapInfoViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapInfoViewViewController.h; sourceTree = "<group>"; };
+		EE7851F61E658F72003BD704 /* MapInfoViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapInfoViewViewController.m; sourceTree = "<group>"; };
+		EEA181F21E64308C003363B4 /* NeedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeedController.h; sourceTree = "<group>"; };
+		EEA181F31E64308C003363B4 /* NeedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeedController.m; sourceTree = "<group>"; };
+		EEA181F51E643099003363B4 /* RentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RentController.h; sourceTree = "<group>"; };
+		EEA181F61E643099003363B4 /* RentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentController.m; sourceTree = "<group>"; };
+		EEA181FB1E643B66003363B4 /* CustomerMAPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerMAPointAnnotation.h; sourceTree = "<group>"; };
+		EEA181FC1E643B66003363B4 /* CustomerMAPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerMAPointAnnotation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE43D16D1E62EB9D005862C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E5D1738B47FE1D1FEC4E7A /* libPods-ZuZu.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE43D1861E62EB9D005862C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A908C88A3570913BD2B0080D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F4D712F40B3212C74213E25 /* libPods-ZuZu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C21935EEE6716658C93DA9A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32CDDC6E3AC36E459B1313B3 /* Pods-ZuZu.debug.xcconfig */,
+				489CB52CF5ED570909865C00 /* Pods-ZuZu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE43D1671E62EB9D005862C8 = {
+			isa = PBXGroup;
+			children = (
+				EE43D1721E62EB9D005862C8 /* ZuZu */,
+				EE43D18C1E62EB9D005862C8 /* ZuZuUITests */,
+				EE43D1711E62EB9D005862C8 /* Products */,
+				C21935EEE6716658C93DA9A8 /* Pods */,
+				A908C88A3570913BD2B0080D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE43D1711E62EB9D005862C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE43D1701E62EB9D005862C8 /* ZuZu.app */,
+				EE43D1891E62EB9D005862C8 /* ZuZuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE43D1721E62EB9D005862C8 /* ZuZu */ = {
+			isa = PBXGroup;
+			children = (
+				EE43D1761E62EB9D005862C8 /* AppDelegate.h */,
+				EE43D1771E62EB9D005862C8 /* AppDelegate.m */,
+				EE43D1791E62EB9D005862C8 /* ViewController.h */,
+				EE43D17A1E62EB9D005862C8 /* ViewController.m */,
+				EE43D17C1E62EB9D005862C8 /* Main.storyboard */,
+				EE43D17F1E62EB9D005862C8 /* Assets.xcassets */,
+				EE43D1811E62EB9D005862C8 /* LaunchScreen.storyboard */,
+				EE43D1841E62EB9D005862C8 /* Info.plist */,
+				EE43D1731E62EB9D005862C8 /* Supporting Files */,
+				EE43D1981E62F426005862C8 /* FriController.h */,
+				EE43D1991E62F426005862C8 /* FriController.m */,
+				EEA181F21E64308C003363B4 /* NeedController.h */,
+				EEA181F31E64308C003363B4 /* NeedController.m */,
+				EEA181F51E643099003363B4 /* RentController.h */,
+				EEA181F61E643099003363B4 /* RentController.m */,
+				EEA181FB1E643B66003363B4 /* CustomerMAPointAnnotation.h */,
+				EEA181FC1E643B66003363B4 /* CustomerMAPointAnnotation.m */,
+				EE7851EC1E65139B003BD704 /* CustomerMAPointAnnotationView.h */,
+				EE7851ED1E65139B003BD704 /* CustomerMAPointAnnotationView.m */,
+				EE7851F51E658F72003BD704 /* MapInfoViewViewController.h */,
+				EE7851F61E658F72003BD704 /* MapInfoViewViewController.m */,
+				EE7851EF1E6513E7003BD704 /* CustomCalloutView.h */,
+				EE7851F01E6513E7003BD704 /* CustomCalloutView.m */,
+				EE7851F21E6559A8003BD704 /* MapViewHeight.h */,
+				EE7851F31E6559A8003BD704 /* MapViewHeight.m */,
+			);
+			path = ZuZu;
+			sourceTree = "<group>";
+		};
+		EE43D1731E62EB9D005862C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE43D1741E62EB9D005862C8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE43D18C1E62EB9D005862C8 /* ZuZuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE43D18D1E62EB9D005862C8 /* ZuZuUITests.m */,
+				EE43D18F1E62EB9D005862C8 /* Info.plist */,
+			);
+			path = ZuZuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE43D16F1E62EB9D005862C8 /* ZuZu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE43D1921E62EB9D005862C8 /* Build configuration list for PBXNativeTarget "ZuZu" */;
+			buildPhases = (
+				A31FAF056934B5FDF08320FC /* [CP] Check Pods Manifest.lock */,
+				EE43D16C1E62EB9D005862C8 /* Sources */,
+				EE43D16D1E62EB9D005862C8 /* Frameworks */,
+				EE43D16E1E62EB9D005862C8 /* Resources */,
+				0CA17FE9EA764889CA0CB6CF /* [CP] Embed Pods Frameworks */,
+				861BBD16505C9761E9249326 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZuZu;
+			productName = ZuZu;
+			productReference = EE43D1701E62EB9D005862C8 /* ZuZu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE43D1881E62EB9D005862C8 /* ZuZuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE43D1951E62EB9D005862C8 /* Build configuration list for PBXNativeTarget "ZuZuUITests" */;
+			buildPhases = (
+				EE43D1851E62EB9D005862C8 /* Sources */,
+				EE43D1861E62EB9D005862C8 /* Frameworks */,
+				EE43D1871E62EB9D005862C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE43D18B1E62EB9D005862C8 /* PBXTargetDependency */,
+			);
+			name = ZuZuUITests;
+			productName = ZuZuUITests;
+			productReference = EE43D1891E62EB9D005862C8 /* ZuZuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE43D1681E62EB9D005862C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "陈锦滔";
+				TargetAttributes = {
+					EE43D16F1E62EB9D005862C8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					EE43D1881E62EB9D005862C8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE43D16F1E62EB9D005862C8;
+					};
+				};
+			};
+			buildConfigurationList = EE43D16B1E62EB9D005862C8 /* Build configuration list for PBXProject "ZuZu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE43D1671E62EB9D005862C8;
+			productRefGroup = EE43D1711E62EB9D005862C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE43D16F1E62EB9D005862C8 /* ZuZu */,
+				EE43D1881E62EB9D005862C8 /* ZuZuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE43D16E1E62EB9D005862C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE43D1831E62EB9D005862C8 /* LaunchScreen.storyboard in Resources */,
+				EE43D1801E62EB9D005862C8 /* Assets.xcassets in Resources */,
+				EE43D17E1E62EB9D005862C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE43D1871E62EB9D005862C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CA17FE9EA764889CA0CB6CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZuZu/Pods-ZuZu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		861BBD16505C9761E9249326 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZuZu/Pods-ZuZu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A31FAF056934B5FDF08320FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE43D16C1E62EB9D005862C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA181F41E64308C003363B4 /* NeedController.m in Sources */,
+				EE7851F41E6559A8003BD704 /* MapViewHeight.m in Sources */,
+				EE43D17B1E62EB9D005862C8 /* ViewController.m in Sources */,
+				EE7851EE1E65139B003BD704 /* CustomerMAPointAnnotationView.m in Sources */,
+				EE7851F11E6513E7003BD704 /* CustomCalloutView.m in Sources */,
+				EEA181F71E643099003363B4 /* RentController.m in Sources */,
+				EE43D1781E62EB9D005862C8 /* AppDelegate.m in Sources */,
+				EE7851F71E658F72003BD704 /* MapInfoViewViewController.m in Sources */,
+				EE43D1751E62EB9D005862C8 /* main.m in Sources */,
+				EEA181F11E6420E7003363B4 /* FriController.m in Sources */,
+				EEA181FD1E643B66003363B4 /* CustomerMAPointAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE43D1851E62EB9D005862C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE43D18E1E62EB9D005862C8 /* ZuZuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE43D18B1E62EB9D005862C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE43D16F1E62EB9D005862C8 /* ZuZu */;
+			targetProxy = EE43D18A1E62EB9D005862C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE43D17C1E62EB9D005862C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE43D17D1E62EB9D005862C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE43D1811E62EB9D005862C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE43D1821E62EB9D005862C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE43D1901E62EB9D005862C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE43D1911E62EB9D005862C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE43D1931E62EB9D005862C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32CDDC6E3AC36E459B1313B3 /* Pods-ZuZu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZuZu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test1.0.ZuZu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE43D1941E62EB9D005862C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 489CB52CF5ED570909865C00 /* Pods-ZuZu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZuZu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test1.0.ZuZu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE43D1961E62EB9D005862C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZuZuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test1.0.ZuZuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZuZu;
+			};
+			name = Debug;
+		};
+		EE43D1971E62EB9D005862C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZuZuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test1.0.ZuZuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZuZu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE43D16B1E62EB9D005862C8 /* Build configuration list for PBXProject "ZuZu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE43D1901E62EB9D005862C8 /* Debug */,
+				EE43D1911E62EB9D005862C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE43D1921E62EB9D005862C8 /* Build configuration list for PBXNativeTarget "ZuZu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE43D1931E62EB9D005862C8 /* Debug */,
+				EE43D1941E62EB9D005862C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE43D1951E62EB9D005862C8 /* Build configuration list for PBXNativeTarget "ZuZuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE43D1961E62EB9D005862C8 /* Debug */,
+				EE43D1971E62EB9D005862C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE43D1681E62EB9D005862C8 /* Project object */;
+}

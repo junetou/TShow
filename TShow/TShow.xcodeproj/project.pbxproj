@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F684B298F4C820706135648 /* libPods-TShow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C16F7B36DD47CA0CEDA8F851 /* libPods-TShow.a */; };
+		EE3A0A3C1E6045A90012B4A0 /* CommentViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3A0A3B1E6045A90012B4A0 /* CommentViewViewController.m */; };
+		EE3A0A3F1E6050180012B4A0 /* CommentMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3A0A3E1E6050180012B4A0 /* CommentMessage.m */; };
+		EE446C9D1E5C662F004CEB6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE446C9C1E5C662F004CEB6E /* main.m */; };
+		EE446CA01E5C662F004CEB6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE446C9F1E5C662F004CEB6E /* AppDelegate.m */; };
+		EE446CA31E5C662F004CEB6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE446CA21E5C662F004CEB6E /* ViewController.m */; };
+		EE446CA61E5C662F004CEB6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE446CA41E5C662F004CEB6E /* Main.storyboard */; };
+		EE446CA91E5C662F004CEB6E /* TShow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE446CA71E5C662F004CEB6E /* TShow.xcdatamodeld */; };
+		EE446CAB1E5C662F004CEB6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE446CAA1E5C662F004CEB6E /* Assets.xcassets */; };
+		EE446CAE1E5C662F004CEB6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE446CAC1E5C662F004CEB6E /* LaunchScreen.storyboard */; };
+		EE446CB91E5C662F004CEB6E /* TShowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE446CB81E5C662F004CEB6E /* TShowUITests.m */; };
+		EE446CC51E5C6878004CEB6E /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = EE446CC41E5C6878004CEB6E /* CustomTabBar.m */; };
+		EE4633F91E5DE030007EFC04 /* AndyDropDownList.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4633F81E5DE030007EFC04 /* AndyDropDownList.m */; };
+		EE7A5D861E5EA97D00E66097 /* AndyDropDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7A5D851E5EA97D00E66097 /* AndyDropDownButton.m */; };
+		EE7C986F1E5D49A1008D9B7E /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C986E1E5D49A1008D9B7E /* HomeViewController.m */; };
+		EE7C98721E5D49E9008D9B7E /* HomeCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C98711E5D49E9008D9B7E /* HomeCellHeight.m */; };
+		EE7C98751E5D4C02008D9B7E /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C98741E5D4C02008D9B7E /* HomeTableViewCell.m */; };
+		EE7C98811E5D5CF0008D9B7E /* HeroModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C98781E5D5CF0008D9B7E /* HeroModel.m */; };
+		EE7C98821E5D5CF0008D9B7E /* SCAdCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C987A1E5D5CF0008D9B7E /* SCAdCollectionViewLayout.m */; };
+		EE7C98831E5D5CF0008D9B7E /* SCAdDemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C987C1E5D5CF0008D9B7E /* SCAdDemoCollectionViewCell.m */; };
+		EE7C98841E5D5CF0008D9B7E /* SCAdDemoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE7C987D1E5D5CF0008D9B7E /* SCAdDemoCollectionViewCell.xib */; };
+		EE7C98851E5D5CF0008D9B7E /* SCAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C987F1E5D5CF0008D9B7E /* SCAdView.m */; };
+		EE7C988E1E5D66F5008D9B7E /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C98881E5D66F5008D9B7E /* SDBrowserImageView.m */; };
+		EE7C988F1E5D66F5008D9B7E /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C988A1E5D66F5008D9B7E /* SDPhotoBrowser.m */; };
+		EE7C98901E5D66F5008D9B7E /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C988D1E5D66F5008D9B7E /* SDWaitingView.m */; };
+		EE7C98931E5D79BA008D9B7E /* HomeCellMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C98921E5D79BA008D9B7E /* HomeCellMessage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE446CB51E5C662F004CEB6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE446C901E5C662F004CEB6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE446C971E5C662F004CEB6E;
+			remoteInfo = TShow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		866CA7C40A3881A1AA47D1A4 /* Pods-TShow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TShow.release.xcconfig"; path = "Pods/Target Support Files/Pods-TShow/Pods-TShow.release.xcconfig"; sourceTree = "<group>"; };
+		C16F7B36DD47CA0CEDA8F851 /* libPods-TShow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TShow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3A0A3A1E6045A90012B4A0 /* CommentViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentViewViewController.h; sourceTree = "<group>"; };
+		EE3A0A3B1E6045A90012B4A0 /* CommentViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewViewController.m; sourceTree = "<group>"; };
+		EE3A0A3D1E6050180012B4A0 /* CommentMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentMessage.h; sourceTree = "<group>"; };
+		EE3A0A3E1E6050180012B4A0 /* CommentMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentMessage.m; sourceTree = "<group>"; };
+		EE446C981E5C662F004CEB6E /* TShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE446C9C1E5C662F004CEB6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE446C9E1E5C662F004CEB6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE446C9F1E5C662F004CEB6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE446CA11E5C662F004CEB6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE446CA21E5C662F004CEB6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE446CA51E5C662F004CEB6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE446CA81E5C662F004CEB6E /* TShow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TShow.xcdatamodel; sourceTree = "<group>"; };
+		EE446CAA1E5C662F004CEB6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE446CAD1E5C662F004CEB6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE446CAF1E5C662F004CEB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE446CB41E5C662F004CEB6E /* TShowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TShowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE446CB81E5C662F004CEB6E /* TShowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TShowUITests.m; sourceTree = "<group>"; };
+		EE446CBA1E5C662F004CEB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE446CC31E5C6878004CEB6E /* CustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBar.h; sourceTree = "<group>"; };
+		EE446CC41E5C6878004CEB6E /* CustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
+		EE4633F71E5DE030007EFC04 /* AndyDropDownList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyDropDownList.h; sourceTree = "<group>"; };
+		EE4633F81E5DE030007EFC04 /* AndyDropDownList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyDropDownList.m; sourceTree = "<group>"; };
+		EE69CF662C1CF47C2DEC56E7 /* Pods-TShow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TShow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TShow/Pods-TShow.debug.xcconfig"; sourceTree = "<group>"; };
+		EE7A5D841E5EA97D00E66097 /* AndyDropDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndyDropDownButton.h; sourceTree = "<group>"; };
+		EE7A5D851E5EA97D00E66097 /* AndyDropDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AndyDropDownButton.m; sourceTree = "<group>"; };
+		EE7C986D1E5D49A1008D9B7E /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		EE7C986E1E5D49A1008D9B7E /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		EE7C98701E5D49E9008D9B7E /* HomeCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCellHeight.h; sourceTree = "<group>"; };
+		EE7C98711E5D49E9008D9B7E /* HomeCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCellHeight.m; sourceTree = "<group>"; };
+		EE7C98731E5D4C02008D9B7E /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		EE7C98741E5D4C02008D9B7E /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		EE7C98771E5D5CF0008D9B7E /* HeroModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroModel.h; sourceTree = "<group>"; };
+		EE7C98781E5D5CF0008D9B7E /* HeroModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroModel.m; sourceTree = "<group>"; };
+		EE7C98791E5D5CF0008D9B7E /* SCAdCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAdCollectionViewLayout.h; sourceTree = "<group>"; };
+		EE7C987A1E5D5CF0008D9B7E /* SCAdCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAdCollectionViewLayout.m; sourceTree = "<group>"; };
+		EE7C987B1E5D5CF0008D9B7E /* SCAdDemoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAdDemoCollectionViewCell.h; sourceTree = "<group>"; };
+		EE7C987C1E5D5CF0008D9B7E /* SCAdDemoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAdDemoCollectionViewCell.m; sourceTree = "<group>"; };
+		EE7C987D1E5D5CF0008D9B7E /* SCAdDemoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SCAdDemoCollectionViewCell.xib; sourceTree = "<group>"; };
+		EE7C987E1E5D5CF0008D9B7E /* SCAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAdView.h; sourceTree = "<group>"; };
+		EE7C987F1E5D5CF0008D9B7E /* SCAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAdView.m; sourceTree = "<group>"; };
+		EE7C98801E5D5CF0008D9B7E /* SCAdViewRenderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAdViewRenderDelegate.h; sourceTree = "<group>"; };
+		EE7C98871E5D66F5008D9B7E /* SDBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBrowserImageView.h; sourceTree = "<group>"; };
+		EE7C98881E5D66F5008D9B7E /* SDBrowserImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBrowserImageView.m; sourceTree = "<group>"; };
+		EE7C98891E5D66F5008D9B7E /* SDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowser.h; sourceTree = "<group>"; };
+		EE7C988A1E5D66F5008D9B7E /* SDPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPhotoBrowser.m; sourceTree = "<group>"; };
+		EE7C988B1E5D66F5008D9B7E /* SDPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowserConfig.h; sourceTree = "<group>"; };
+		EE7C988C1E5D66F5008D9B7E /* SDWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWaitingView.h; sourceTree = "<group>"; };
+		EE7C988D1E5D66F5008D9B7E /* SDWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWaitingView.m; sourceTree = "<group>"; };
+		EE7C98911E5D79BA008D9B7E /* HomeCellMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCellMessage.h; sourceTree = "<group>"; };
+		EE7C98921E5D79BA008D9B7E /* HomeCellMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCellMessage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE446C951E5C662F004CEB6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F684B298F4C820706135648 /* libPods-TShow.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE446CB11E5C662F004CEB6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64F3578E7446C5E02CBF3BDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C16F7B36DD47CA0CEDA8F851 /* libPods-TShow.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED5B234E2FC5561C8E280547 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE69CF662C1CF47C2DEC56E7 /* Pods-TShow.debug.xcconfig */,
+				866CA7C40A3881A1AA47D1A4 /* Pods-TShow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE3A0A361E6044B10012B4A0 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				EE3A0A3A1E6045A90012B4A0 /* CommentViewViewController.h */,
+				EE3A0A3B1E6045A90012B4A0 /* CommentViewViewController.m */,
+				EE3A0A3D1E6050180012B4A0 /* CommentMessage.h */,
+				EE3A0A3E1E6050180012B4A0 /* CommentMessage.m */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		EE446C8F1E5C662F004CEB6E = {
+			isa = PBXGroup;
+			children = (
+				EE446C9A1E5C662F004CEB6E /* TShow */,
+				EE446CB71E5C662F004CEB6E /* TShowUITests */,
+				EE446C991E5C662F004CEB6E /* Products */,
+				ED5B234E2FC5561C8E280547 /* Pods */,
+				64F3578E7446C5E02CBF3BDB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE446C991E5C662F004CEB6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE446C981E5C662F004CEB6E /* TShow.app */,
+				EE446CB41E5C662F004CEB6E /* TShowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE446C9A1E5C662F004CEB6E /* TShow */ = {
+			isa = PBXGroup;
+			children = (
+				EE4633F61E5DE030007EFC04 /* AndyDropDownLIst */,
+				EE7C98861E5D66F5008D9B7E /* SDPhotoBrowser */,
+				EE7C98761E5D5CF0008D9B7E /* SCAdView */,
+				EE7C986C1E5D496F008D9B7E /* homeController */,
+				EE446C9E1E5C662F004CEB6E /* AppDelegate.h */,
+				EE446C9F1E5C662F004CEB6E /* AppDelegate.m */,
+				EE446CA11E5C662F004CEB6E /* ViewController.h */,
+				EE446CA21E5C662F004CEB6E /* ViewController.m */,
+				EE446CC31E5C6878004CEB6E /* CustomTabBar.h */,
+				EE446CC41E5C6878004CEB6E /* CustomTabBar.m */,
+				EE446CA41E5C662F004CEB6E /* Main.storyboard */,
+				EE446CAA1E5C662F004CEB6E /* Assets.xcassets */,
+				EE446CAC1E5C662F004CEB6E /* LaunchScreen.storyboard */,
+				EE446CAF1E5C662F004CEB6E /* Info.plist */,
+				EE446CA71E5C662F004CEB6E /* TShow.xcdatamodeld */,
+				EE446C9B1E5C662F004CEB6E /* Supporting Files */,
+			);
+			path = TShow;
+			sourceTree = "<group>";
+		};
+		EE446C9B1E5C662F004CEB6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE446C9C1E5C662F004CEB6E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE446CB71E5C662F004CEB6E /* TShowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE446CB81E5C662F004CEB6E /* TShowUITests.m */,
+				EE446CBA1E5C662F004CEB6E /* Info.plist */,
+			);
+			path = TShowUITests;
+			sourceTree = "<group>";
+		};
+		EE4633F61E5DE030007EFC04 /* AndyDropDownLIst */ = {
+			isa = PBXGroup;
+			children = (
+				EE4633F71E5DE030007EFC04 /* AndyDropDownList.h */,
+				EE4633F81E5DE030007EFC04 /* AndyDropDownList.m */,
+				EE7A5D841E5EA97D00E66097 /* AndyDropDownButton.h */,
+				EE7A5D851E5EA97D00E66097 /* AndyDropDownButton.m */,
+			);
+			path = AndyDropDownLIst;
+			sourceTree = "<group>";
+		};
+		EE7C986C1E5D496F008D9B7E /* homeController */ = {
+			isa = PBXGroup;
+			children = (
+				EE3A0A361E6044B10012B4A0 /* Comment */,
+				EE7C986D1E5D49A1008D9B7E /* HomeViewController.h */,
+				EE7C986E1E5D49A1008D9B7E /* HomeViewController.m */,
+				EE7C98701E5D49E9008D9B7E /* HomeCellHeight.h */,
+				EE7C98711E5D49E9008D9B7E /* HomeCellHeight.m */,
+				EE7C98731E5D4C02008D9B7E /* HomeTableViewCell.h */,
+				EE7C98741E5D4C02008D9B7E /* HomeTableViewCell.m */,
+				EE7C98911E5D79BA008D9B7E /* HomeCellMessage.h */,
+				EE7C98921E5D79BA008D9B7E /* HomeCellMessage.m */,
+			);
+			path = homeController;
+			sourceTree = "<group>";
+		};
+		EE7C98761E5D5CF0008D9B7E /* SCAdView */ = {
+			isa = PBXGroup;
+			children = (
+				EE7C98771E5D5CF0008D9B7E /* HeroModel.h */,
+				EE7C98781E5D5CF0008D9B7E /* HeroModel.m */,
+				EE7C98791E5D5CF0008D9B7E /* SCAdCollectionViewLayout.h */,
+				EE7C987A1E5D5CF0008D9B7E /* SCAdCollectionViewLayout.m */,
+				EE7C987B1E5D5CF0008D9B7E /* SCAdDemoCollectionViewCell.h */,
+				EE7C987C1E5D5CF0008D9B7E /* SCAdDemoCollectionViewCell.m */,
+				EE7C987D1E5D5CF0008D9B7E /* SCAdDemoCollectionViewCell.xib */,
+				EE7C987E1E5D5CF0008D9B7E /* SCAdView.h */,
+				EE7C987F1E5D5CF0008D9B7E /* SCAdView.m */,
+				EE7C98801E5D5CF0008D9B7E /* SCAdViewRenderDelegate.h */,
+			);
+			name = SCAdView;
+			path = homeController/SCAdView;
+			sourceTree = "<group>";
+		};
+		EE7C98861E5D66F5008D9B7E /* SDPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				EE7C98871E5D66F5008D9B7E /* SDBrowserImageView.h */,
+				EE7C98881E5D66F5008D9B7E /* SDBrowserImageView.m */,
+				EE7C98891E5D66F5008D9B7E /* SDPhotoBrowser.h */,
+				EE7C988A1E5D66F5008D9B7E /* SDPhotoBrowser.m */,
+				EE7C988B1E5D66F5008D9B7E /* SDPhotoBrowserConfig.h */,
+				EE7C988C1E5D66F5008D9B7E /* SDWaitingView.h */,
+				EE7C988D1E5D66F5008D9B7E /* SDWaitingView.m */,
+			);
+			path = SDPhotoBrowser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE446C971E5C662F004CEB6E /* TShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE446CBD1E5C662F004CEB6E /* Build configuration list for PBXNativeTarget "TShow" */;
+			buildPhases = (
+				DD688AD73EE241CCB587940E /* [CP] Check Pods Manifest.lock */,
+				EE446C941E5C662F004CEB6E /* Sources */,
+				EE446C951E5C662F004CEB6E /* Frameworks */,
+				EE446C961E5C662F004CEB6E /* Resources */,
+				E354DF98E7DCBE3CAE370033 /* [CP] Embed Pods Frameworks */,
+				1EEA0CBD2B906A2EAA62A71A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TShow;
+			productName = TShow;
+			productReference = EE446C981E5C662F004CEB6E /* TShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE446CB31E5C662F004CEB6E /* TShowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE446CC01E5C662F004CEB6E /* Build configuration list for PBXNativeTarget "TShowUITests" */;
+			buildPhases = (
+				EE446CB01E5C662F004CEB6E /* Sources */,
+				EE446CB11E5C662F004CEB6E /* Frameworks */,
+				EE446CB21E5C662F004CEB6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE446CB61E5C662F004CEB6E /* PBXTargetDependency */,
+			);
+			name = TShowUITests;
+			productName = TShowUITests;
+			productReference = EE446CB41E5C662F004CEB6E /* TShowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE446C901E5C662F004CEB6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "陈锦滔";
+				TargetAttributes = {
+					EE446C971E5C662F004CEB6E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					EE446CB31E5C662F004CEB6E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE446C971E5C662F004CEB6E;
+					};
+				};
+			};
+			buildConfigurationList = EE446C931E5C662F004CEB6E /* Build configuration list for PBXProject "TShow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE446C8F1E5C662F004CEB6E;
+			productRefGroup = EE446C991E5C662F004CEB6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE446C971E5C662F004CEB6E /* TShow */,
+				EE446CB31E5C662F004CEB6E /* TShowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE446C961E5C662F004CEB6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE446CAE1E5C662F004CEB6E /* LaunchScreen.storyboard in Resources */,
+				EE446CAB1E5C662F004CEB6E /* Assets.xcassets in Resources */,
+				EE7C98841E5D5CF0008D9B7E /* SCAdDemoCollectionViewCell.xib in Resources */,
+				EE446CA61E5C662F004CEB6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE446CB21E5C662F004CEB6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EEA0CBD2B906A2EAA62A71A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TShow/Pods-TShow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD688AD73EE241CCB587940E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E354DF98E7DCBE3CAE370033 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TShow/Pods-TShow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE446C941E5C662F004CEB6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7C988E1E5D66F5008D9B7E /* SDBrowserImageView.m in Sources */,
+				EE446CA31E5C662F004CEB6E /* ViewController.m in Sources */,
+				EE4633F91E5DE030007EFC04 /* AndyDropDownList.m in Sources */,
+				EE7C988F1E5D66F5008D9B7E /* SDPhotoBrowser.m in Sources */,
+				EE7C98721E5D49E9008D9B7E /* HomeCellHeight.m in Sources */,
+				EE7C98831E5D5CF0008D9B7E /* SCAdDemoCollectionViewCell.m in Sources */,
+				EE7C98901E5D66F5008D9B7E /* SDWaitingView.m in Sources */,
+				EE7C98751E5D4C02008D9B7E /* HomeTableViewCell.m in Sources */,
+				EE7A5D861E5EA97D00E66097 /* AndyDropDownButton.m in Sources */,
+				EE446CA01E5C662F004CEB6E /* AppDelegate.m in Sources */,
+				EE446C9D1E5C662F004CEB6E /* main.m in Sources */,
+				EE3A0A3F1E6050180012B4A0 /* CommentMessage.m in Sources */,
+				EE446CC51E5C6878004CEB6E /* CustomTabBar.m in Sources */,
+				EE7C98931E5D79BA008D9B7E /* HomeCellMessage.m in Sources */,
+				EE7C98851E5D5CF0008D9B7E /* SCAdView.m in Sources */,
+				EE7C98811E5D5CF0008D9B7E /* HeroModel.m in Sources */,
+				EE7C98821E5D5CF0008D9B7E /* SCAdCollectionViewLayout.m in Sources */,
+				EE446CA91E5C662F004CEB6E /* TShow.xcdatamodeld in Sources */,
+				EE7C986F1E5D49A1008D9B7E /* HomeViewController.m in Sources */,
+				EE3A0A3C1E6045A90012B4A0 /* CommentViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE446CB01E5C662F004CEB6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE446CB91E5C662F004CEB6E /* TShowUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE446CB61E5C662F004CEB6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE446C971E5C662F004CEB6E /* TShow */;
+			targetProxy = EE446CB51E5C662F004CEB6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE446CA41E5C662F004CEB6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE446CA51E5C662F004CEB6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE446CAC1E5C662F004CEB6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE446CAD1E5C662F004CEB6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE446CBB1E5C662F004CEB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE446CBC1E5C662F004CEB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE446CBE1E5C662F004CEB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE69CF662C1CF47C2DEC56E7 /* Pods-TShow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test1.0.TShow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE446CBF1E5C662F004CEB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 866CA7C40A3881A1AA47D1A4 /* Pods-TShow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test1.0.TShow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE446CC11E5C662F004CEB6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TShowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test1.0.TShowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TShow;
+			};
+			name = Debug;
+		};
+		EE446CC21E5C662F004CEB6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TShowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test1.0.TShowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TShow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE446C931E5C662F004CEB6E /* Build configuration list for PBXProject "TShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE446CBB1E5C662F004CEB6E /* Debug */,
+				EE446CBC1E5C662F004CEB6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE446CBD1E5C662F004CEB6E /* Build configuration list for PBXNativeTarget "TShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE446CBE1E5C662F004CEB6E /* Debug */,
+				EE446CBF1E5C662F004CEB6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE446CC01E5C662F004CEB6E /* Build configuration list for PBXNativeTarget "TShowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE446CC11E5C662F004CEB6E /* Debug */,
+				EE446CC21E5C662F004CEB6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE446CA71E5C662F004CEB6E /* TShow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE446CA81E5C662F004CEB6E /* TShow.xcdatamodel */,
+			);
+			currentVersion = EE446CA81E5C662F004CEB6E /* TShow.xcdatamodel */;
+			path = TShow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE446C901E5C662F004CEB6E /* Project object */;
+}
